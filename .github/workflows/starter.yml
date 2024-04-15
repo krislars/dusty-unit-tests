@@ -38,7 +38,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           pip install pytest
-          pytest
+          pytest add_two_numbers.py
 
 
 
