@@ -38,6 +38,7 @@ jobs:
       - name: Install dependencies and run tests
         run: |
           pip install pytest
+          pip install matplotlib
           pip install speclite
           pip install dust_extinction
           pytest add_two_numbers.py
