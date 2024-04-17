@@ -35,10 +35,13 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: Run a multi-line script
+      - name: Install dependencies and run tests
         run: |
           pip install pytest
+          pip install speclite
+          pip install dust_extinction
           pytest add_two_numbers.py
+          pytest reworked_gaia_tutorial.py
 
 
 
