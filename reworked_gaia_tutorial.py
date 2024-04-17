@@ -1,4 +1,4 @@
-pip inimport numpy as np
+import numpy as np
 from matplotlib import pyplot as plt
 import speclite.filters
 from dust_extinction.parameter_averages import F19 # more available!
